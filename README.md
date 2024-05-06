@@ -1,6 +1,7 @@
 # Simple Mailtrap Java Client
 
-This Library offers integration with the [official SEND API](https://api-docs.mailtrap.io/) for [Mailtrap](https://mailtrap.io).
+This Library offers integration with the [official SEND API](https://api-docs.mailtrap.io/)
+for [Mailtrap](https://mailtrap.io).
 
 Quickly add email sending functionality to your Java application with Mailtrap.
 
@@ -11,7 +12,9 @@ Requires JDK 11 or higher
 ## Usage
 
 ### Dependency
+
 Maven dependency
+
 ```xml
 
 <dependency>
@@ -20,16 +23,21 @@ Maven dependency
     <version>1.0</version>
 </dependency>
 ```
+
 Gradle Groovy dependency
+
 ```groovy
 implementation 'io.mailtrap.testtask:java-sdk-test-task:1.0'
 ```
+
 Gradle Kotlin dependency
+
 ```groovy
 implementation("io.mailtrap.testtask:java-sdk-test-task:1.0")
 ```
 
 ### Minimal
+
 ```java
 import io.mailtrap.testtask.client.MailtrapClient;
 import io.mailtrap.testtask.client.SendMailMailtrapClient;
@@ -68,6 +76,7 @@ public class TestMailtrapJavaClient {
     }
 }
 ```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on [GitHub](https://github.com/vitalii-t/railsware-test-task).
